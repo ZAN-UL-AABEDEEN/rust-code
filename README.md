@@ -16,15 +16,10 @@ edition = "2018"
 lengthofstring = "0.1.1"
 In src/main.rs you can use like this:
 
-use legthofstring;
+
+use lengthofstring::length;
 fn main() {
     let string = "A String of your choice".to_string();
-    legthofstring::legthofstring(&string);
-}
-following will also work:
-
-use firstwelcome::hello;
-fn main() {
-    println!("Hello, world!");
-    hello();
+    let x = length(&string);
+    println!("The length of given string is: {}",x);
     }
