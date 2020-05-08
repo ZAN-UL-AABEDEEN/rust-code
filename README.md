@@ -14,8 +14,10 @@ edition = "2018"
 
 [dependencies]
 lengthofstring = "0.1.1"
-In src/main.rs you can use like this:
 
+
+
+In src/main.rs you can use like this:
 
 use lengthofstring::length;
 fn main() {
